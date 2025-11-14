@@ -1,0 +1,87 @@
+/*
+ * style_aesthetic.css
+ * File CSS eksternal untuk biodata aesthetic
+ */
+
+/* Style untuk keseluruhan Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F8F8; /* Latar belakang abu-abu muda */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style untuk Kotak Biodata (Container) */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px; /* Sudut melengkung */
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Bayangan modern */
+    border: 1px solid #EEEEEE;
+}
+
+/* Style untuk Judul Utama */
+h1 {
+    color: #6A5ACD; /* Ungu sedang */
+    text-align: center;
+    border-bottom: 3px solid #E0BBE4; /* Garis bawah lavender */
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Style untuk Setiap Baris Informasi */
+.info-item {
+    margin: 15px 0;
+    font-size: 16px;
+    border-left: 4px solid #957DAD; /* Garis vertikal ungu */
+    padding-left: 15px;
+}
+
+/* Style untuk Label (misalnya: Nama:, Pekerjaan:) */
+.label {
+    font-weight: 700;
+    color: #3C3C3C;
+    display: inline-block;
+    min-width: 120px;
+}
+
+/* Style untuk Value (Isi Informasi) */
+.value {
+    color: #5A5A5A;
+}
+
+/* Style untuk Sub Judul */
+h2 {
+    color: #6A5ACD;
+    margin-top: 30px;
+    font-size: 20px;
+    border-top: 1px dashed #E0BBE4;
+    padding-top: 20px;
+}
+
+/* Style untuk Daftar Skill (List) */
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    background-color: #F0F0FF; /* Latar belakang item skill */
+    padding: 8px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    color: #6A5ACD;
+    font-weight: 500;
+}
+
+/* Style untuk Catatan Kaki */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #AAAAAA;
+    font-size: 14px;
+}
